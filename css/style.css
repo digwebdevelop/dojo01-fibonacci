@@ -1,5 +1,5 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html {
     color: #222;
@@ -58,8 +58,8 @@ textarea {
    ========================================================================== */
 
 body {
-    background: #f46b42;
-    font-family: 'Bree Serif', serif;
+    background: #122a51;
+    font-family: 'Montserrat', serif;
 }
 
 .main {
@@ -70,22 +70,27 @@ body {
 }
 
 h1 {
-    font-family: 'Bree Serif', serif;
+    font-family: 'Montserrat', serif;
     font-size: 26px;
     text-align: center;
-    color: #e05033;
+    color: #122a51;
+}
+
+h2 {
+    font-size: 22px;
+    color: #122a51;
 }
 
 p {
-    font-size: 18px;
-    color: #e05033;
+    font-size: 16px;
+    color: #122a51;
 }
 
 input {
-    width: 75%;
+    width: 65%;
     border: none;
-    color: #e05033;
-    border-bottom: 3px solid #e05033;
+    color: #122a51;
+    border-bottom: 3px solid #122a51;
     font-size: 45px;
     text-align: center;
 }
@@ -93,16 +98,16 @@ input {
 button {
     background: #fff;
     box-shadow: none;
-    border: 3px solid #e05033;
-    color: #e05033;
-    width: 20%;
+    border: 3px solid #122a51;
+    color: #122a51;
+    width: 30%;
     padding: 10px 0px;
     transition: all 0.3s ease-in-out;
 }
 
 button:hover {
-    background: #e05033;
-    border: 3px solid #e05033;
+    background: #122a51;
+    border: 3px solid #122a51;
     color: #fff;
 }
 

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Random Number Guessing Game</title>
+        <title>Fibonacci Number Generator</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,13 +19,23 @@
 
 <section class="main">
     
-    <h1>Random Number Guessing Game</h1>
-    <p>Guess the number that I'm thinking of between 1 - 100. Enter your guess below and click on the Guess button.</p>
+    <h1>Fibonacci Number Generator</h1>
+
+    <!-- Write a program that takes in the user's input below, and outputs a Fibonacci Number sequence below the 'Your Fibonacci Sequence' header. The Fibonacci sequence occurs when a number is found by adding up the two numbers before it. The sequence starts with 0 and 1. Continuining along with the sequence, it should then go 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, and onward. You are NOT allowed to modify the HTML file in any way. All code must be written, edited or deleted within the main.js file. -->
+
+    <p>Enter a number into the text field below and press submit. Watch as the Fibonacci Number Generator creates a sequence that is the length of your input.</p>
     
-    <input type="text" class="guess"  name="guess">
-    <button class="button" onClick="game()">Guess!</button>
-    <p class="guessResponse"></p>
-    <div id="guessResponse"></div>
+    <input type="text" class="sequence" name="sequence">
+    <button class="button" onClick="fibonacci()">Sequence It!</button>
+
+    </section>
+
+    <section class="main">
+
+    <h1>Your Fibonacci Sequence</h1>
+    <hr>
+    <p class="sequenceOutput"></p>
+    
     
 </section>
     <script src="js/main.js"></script>
